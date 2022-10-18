@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+  background: #f4f4f4;
+}
+
+label {
+  display: block;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+}
+
+input {
+  display: block;
+  padding: 10px;
+  border: 1px solid black;
+
+}
+
+input.error {
+  border: 3px solid red;
+}
+
+.error-text {
+  display: none;
+  font-family: monospace;
+  font-size: .9rem;
+  color: red;
+}
+
+.error-text.active {
+  display: block;
+}
+
+input.valid {
+  border: 3px solid #40ca40;
+}
+
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.title {
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.template {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 2px solid black;
+}
+
+
+#formulario {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: .9rem;
+  padding: 0.6rem;
+  border-radius: 4px;
+}
